@@ -1,0 +1,14 @@
+# PARA VERIFICAR O MAIOR DENTRE 3 NUMEROS, PODE-SE USAR VARIOS METODOS,
+# 1 - PODE-SE COMPARAR UM A UM SEU VALOR, VERIFICANDO TODAS POSSIBILIDADES.
+# 2 - PODE-SE UTILIZAR ALGUMA ESTRUTURA COMO UM VETOR, LISTA, ... E ORDENAR, PEGANDO O ELEMENTO DA EXTREMIDADE
+# DENTRE OUTROS.
+# COMO NESTA LISTA PRESUME-SE QUE NÂO FORAM ESTUDADAS ESTRUTURAS DE DADOS AINDA, SERÁ UTILIZADO APENAS COMPARACOES BOOLEANAS E IF
+n1 = float(input("Digite o número 1: "))
+n2 = float(input("Digite o número 2: "))
+n3 = float(input("Digite o número 3: "))
+if (n1>=n2)and(n1>=n3):
+	print(f"Maior: {n1}")
+elif (n2>=n1)and(n2>=n3):
+	print(f"Maior: {n2}")
+elif (n3>=n1)and(n3>=n2):
+	print(f"Maior: {n3}")
