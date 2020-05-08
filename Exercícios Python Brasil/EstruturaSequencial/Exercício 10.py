@@ -1,0 +1,6 @@
+num1 = int(input("Primeiro número: "))
+num2 = int(input("Segundo número: "))
+num3 = float(input("Terceiro número: "))
+print(f"A) {(2*num1*num2/2):.1f} .")
+print(f"B) {(3*num1+num3):.1f} .")
+print(f"C) {(num3**3):.1f} .")
