@@ -1,0 +1,7 @@
+print("Compara duas strings")
+string1 = input("String 1: ")
+string2 = input("String 2: ")
+print(f"Tamanho de \"{string1}\": {len(string1)} caracteres")
+print(f"Tamanho de \"{string2}\": {len(string2)} caracteres")
+print("As duas string tem o mesmo tamanho." if len(string1)==len(string2) else "As duas strings são de tamanhos diferentes.")
+print("As duas strings possuem o mesmo conteúdo." if string1==string2 else "As duas strings possuem conteúdo diferente.")
